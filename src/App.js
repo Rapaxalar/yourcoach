@@ -5,8 +5,6 @@ import "@yourcoach/widget/dist/assets/app.9aa66c.css";
 const { clientId, action, clientSecret, pushToken, token } =
   window.YourCoachInit;
 
-console.log({ clientId, action, clientSecret, pushToken, token });
-
 function App() {
   return (
     <Widget
